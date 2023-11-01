@@ -1,0 +1,118 @@
+*{
+ 
+
+    box-sizing: border-box ;
+
+}
+body{
+    display: flex;
+    justify-content:center;
+    background-color: lightgrey;
+  
+}
+.header{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: rgb(61, 34, 80);
+}
+.maincont{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    min-height: 190px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 0.2px solid rgb(61, 34, 80);
+   
+    
+}
+.addbtn{
+    font-size: 20px;
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:rgb(61, 34, 80);
+    color: white;
+    
+}
+
+.addtask{
+   margin: 9px 10px;
+    font-size: 25px;
+    color: rgb(61, 34, 80);
+}
+.inputdiv{
+    display: inline-block;
+   align-self: center;
+
+}
+.yt{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left:22px;
+    font-size: 18px;
+    font-weight: 40px;
+    display: none;
+    color: rgb(61, 34, 80);
+}
+
+.ytshown{
+    display: block;
+}
+.inputbox{
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+
+.tickboxes{
+    display: flex;
+    flex-direction: row;
+   gap: 10px;
+   align-self: center;
+   margin-right:10px;
+   margin-left: auto;
+   
+  
+}
+.inner_todo
+{
+   display: flex;
+   flex-direction: row;
+   align-self: center;
+   margin-left: 15px;
+   
+}
+.strikethrough li {
+    text-decoration: line-through;
+}
+.error{
+    display:none;
+    color: crimson;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.errorshown {
+    display: block;
+}
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    border: 0.2px solid rgb(116, 114, 114);
+    height: 40px;
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+   
+}
+.todoCont{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
